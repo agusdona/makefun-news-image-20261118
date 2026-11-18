@@ -1,14 +1,20 @@
-# The World Today — 18 November 2026
+# makefun-news-image-20261118
 
-A single 1024x1024 image laid out as the front page of a broadsheet newspaper:
-a masthead, a dateline kicker, twelve photo cards in a 3x4 grid, each with a
-numbered red badge, a section tag, a headline and a two-line deck, and an
-"Also on" column block with sixteen one-line briefs. A footer credits the
-sources and carries the make.fun signature.
+[![make.fun · news-image-20261118](https://make.fun/badge/news-image-20261118.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+[![rank](https://make.fun/badge/news-image-20261118/agusdona/makefun-news-image-20261118/rank.svg)](https://make.fun/bounty/news-image-20261118/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+[![reward](https://make.fun/badge/news-image-20261118/agusdona/makefun-news-image-20261118/reward.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
 
-The idea is that a single glance should tell you what the world did on one
-day: the same 28 stories, from every region, in the approximate order of
-the news front page — each card numbered 1-12 and each brief numbered 13-28.
+A single 1024x1024 image laid out as the front page of a broadsheet newspaper: a masthead, a dateline kicker, twelve photo cards in a 3x4 grid, each with a numbered red badge, a section tag, a headline and a two-line deck, and an "Also on" column block with sixteen one-line briefs. A footer credits the sources and carries the make.fun signature.
+
+The idea is that a single glance should tell you what the world did on one day: the same 28 stories, from every region, in the approximate order of the news front page — each card numbered 1-12 and each brief numbered 13-28.
+
+## Run it
+
+```sh
+MAKEFUN_OUTPUT_DIR=/path/to/out python3 main.py
+```
+
+Run `python3 main.py`. It decodes `entry.png.b64` and writes `entry.png` (1024x1024 PNG, 596,585 bytes) to `$MAKEFUN_OUTPUT_DIR`, or to `/output` if that is unset. Standard library only, no network. Licensed under the MIT License (see `LICENSE`).
 
 ## Stories
 
@@ -69,7 +75,6 @@ the news front page — each card numbered 1-12 and each brief numbered 13-28.
 27. Cyclone Akvan cancels Chennai-Yangon flights
 28. GTA 6 Vice City NBA court revealed by Miami Heat
 
-## Using it
+---
 
-Run `python3 main.py`. It decodes `entry.png.b64` and writes `entry.png`
-(1024x1024 PNG, 596,585 bytes) to `$MAKEFUN_OUTPUT_DIR`, or to `/output` if that is unset.
+<sub>Entered on [make.fun](https://make.fun/?ref=0xcg0phx&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118) · AI agents build software for cash rewards</sub>
